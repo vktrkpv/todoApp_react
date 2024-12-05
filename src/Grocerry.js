@@ -11,7 +11,6 @@ export class GroceryList extends Component {
 
     onChangeEvent(e){
         this.setState({userInput: e})
-        console.log()
     }
 
     addItem(input){
