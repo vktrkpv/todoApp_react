@@ -36,7 +36,6 @@ export class GroceryList extends Component {
                 <ul>
                     {this.state.groceryList.map( (item, index) => {
                         <li key={index}>{item}</li>
-                        console.log("working")
                     })}
                    
                 </ul>
