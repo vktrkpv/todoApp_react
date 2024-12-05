@@ -5,10 +5,13 @@ export class GroceryList extends Component {
     state = {
         userInput: "",
         groceryList: []
+
     }
+
 
     onChangeEvent(e){
         this.setState({userInput: e})
+        console.log()
     }
 
     addItem(input){
